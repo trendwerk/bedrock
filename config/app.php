@@ -64,5 +64,3 @@ define( 'DISALLOW_FILE_MODS', true );
  */
 if( ! defined( 'ABSPATH' ) )
 	define( 'ABSPATH', $webroot_dir . '/wp/' );
-
-require_once( ABSPATH . 'wp-settings.php' );
