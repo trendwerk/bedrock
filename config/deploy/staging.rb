@@ -1,24 +1,27 @@
-set :stage, :staging
+# Set branche to staging
+set :branch, :staging
 
-# Simple Role Syntax
-# ==================
-#role :app, %w{deploy@example.com}
-#role :web, %w{deploy@example.com}
-#role :db,  %w{deploy@example.com}
+# Include development dependencies
+set :composer_install_flags, '--no-interaction --quiet --optimize-autoloader'
 
-# Extended Server Syntax
-# ======================
+# Server settings
+set :deploy_to, -> { "/var/apps/#{fetch(:application)}" }
 server 'example.com', user: 'deploy', roles: %w{web app db}
 
-# you can set custom ssh options
-# it's possible to pass any option but you need to keep in mind that net/ssh understand limited list of options
-# you can see them in [net/ssh documentation](http://net-ssh.github.io/net-ssh/classes/Net/SSH.html#method-c-start)
-# set it globally
-#  set :ssh_options, {
-#    keys: %w(~/.ssh/id_rsa),
-#    forward_agent: false,
-#    auth_methods: %w(password)
-#  }
+# Tasks
+namespace :deploy do
 
-fetch(:default_env).merge!(wp_env: :staging)
+	desc 'Setup symlink'
+	task :setup_symlink do
+	  on roles(:app) do
+	  	begin
+  	    execute "ln -s #{deploy_to}/current/web #{deploy_to.sub '/apps', '/www'}"
+      rescue
+        error "Could not create symlink in /var/www/. You will have to create this manually."
+      end
+	  end
+	end
 
+	after :published, :setup_symlink
+
+end
