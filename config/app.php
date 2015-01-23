@@ -1,64 +1,68 @@
 <?php
-$root_dir = dirname(__DIR__);
+$root_dir = dirname( __DIR__ );
 $webroot_dir = $root_dir . '/web';
 
 /**
- * Use Dotenv to set required environment variables and load .env file in root
+ * Load environment variables with Dotenv
  */
-if (file_exists($root_dir . '/.env')) {
-  Dotenv::load($root_dir);
-}
+if( file_exists( $root_dir . '/.env' ) )
+	Dotenv::load( $root_dir );
 
-Dotenv::required(array('DB_NAME', 'DB_USER', 'DB_PASSWORD', 'WP_HOME', 'WP_SITEURL'));
+Dotenv::required( array( 'DB_NAME', 'DB_USER', 'DB_PASSWORD', 'WP_HOME' ) );
 
 /**
- * Set up our global environment constant and load its config first
- * Default: development
+ * Environment settings
  */
-define('WP_ENV', getenv('WP_ENV') ? getenv('WP_ENV') : 'development');
+define( 'WP_ENV', getenv( 'WP_ENV' ) ? getenv( 'WP_ENV' ) : 'development' );
+define( 'WP_HOME', getenv( 'WP_HOME' ) );
+define( 'WP_SITEURL', getenv( 'WP_SITEURL' ) ? getenv( 'WP_SITEURL' ) : WP_HOME . '/wp' );
 
-$env_config = dirname(__FILE__) . '/environments/' . WP_ENV . '.php';
+$environment = dirname( __FILE__ ) . '/env/' . WP_ENV . '.php';
 
-if (file_exists($env_config)) {
-  require_once $env_config;
-}
+if( file_exists( $environment ) )
+	require_once( $environment );
 
 /**
- * Custom Content Directory
+ * Database settings
  */
-define('CONTENT_DIR', '/app');
-define('WP_CONTENT_DIR', $webroot_dir . CONTENT_DIR);
-define('WP_CONTENT_URL', WP_HOME . CONTENT_DIR);
+define( 'DB_NAME', getenv( 'DB_NAME' ) );
+define( 'DB_USER', getenv( 'DB_USER' ) );
+define( 'DB_PASSWORD', getenv( 'DB_PASSWORD' ) );
+define( 'DB_HOST', getenv( 'DB_HOST' ) ? getenv( 'DB_HOST' ) : 'localhost' );
+
+define( 'DB_CHARSET', 'utf8' );
+define( 'DB_COLLATE', '' );
+
+$table_prefix = 'wp_';
 
 /**
- * DB settings
+ * Content directory
  */
-define('DB_CHARSET', 'utf8');
-define('DB_COLLATE', '');
-$table_prefix = getenv('DB_PREFIX') ? getenv('DB_PREFIX') : 'wp_';
+define( 'CONTENT_DIR', '/app' );
+define( 'WP_CONTENT_DIR', $webroot_dir . CONTENT_DIR );
+define( 'WP_CONTENT_URL', WP_HOME . CONTENT_DIR );
 
 /**
- * Authentication Unique Keys and Salts
+ * Keys and salts
  */
-define('AUTH_KEY',         getenv('AUTH_KEY'));
-define('SECURE_AUTH_KEY',  getenv('SECURE_AUTH_KEY'));
-define('LOGGED_IN_KEY',    getenv('LOGGED_IN_KEY'));
-define('NONCE_KEY',        getenv('NONCE_KEY'));
-define('AUTH_SALT',        getenv('AUTH_SALT'));
-define('SECURE_AUTH_SALT', getenv('SECURE_AUTH_SALT'));
-define('LOGGED_IN_SALT',   getenv('LOGGED_IN_SALT'));
-define('NONCE_SALT',       getenv('NONCE_SALT'));
+define( 'AUTH_KEY',         getenv('AUTH_KEY') );
+define( 'SECURE_AUTH_KEY',  getenv('SECURE_AUTH_KEY') );
+define( 'LOGGED_IN_KEY',    getenv('LOGGED_IN_KEY') );
+define( 'NONCE_KEY',        getenv('NONCE_KEY') );
+define( 'AUTH_SALT',        getenv('AUTH_SALT') );
+define( 'SECURE_AUTH_SALT', getenv('SECURE_AUTH_SALT') );
+define( 'LOGGED_IN_SALT',   getenv('LOGGED_IN_SALT') );
+define( 'NONCE_SALT',       getenv('NONCE_SALT') );
 
 /**
- * Custom Settings
+ * Other WordPress settings
  */
-define('AUTOMATIC_UPDATER_DISABLED', true);
-define('DISABLE_WP_CRON', true);
-define('DISALLOW_FILE_EDIT', true);
+define( 'DISALLOW_FILE_MODS', true );
 
 /**
- * Bootstrap WordPress
+ * Load WordPress
  */
-if (!defined('ABSPATH')) {
-  define('ABSPATH', $webroot_dir . '/wp/');
-}
+if( ! defined( 'ABSPATH' ) )
+	define( 'ABSPATH', $webroot_dir . '/wp/' );
+
+require_once( ABSPATH . 'wp-settings.php' );
