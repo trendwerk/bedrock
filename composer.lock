@@ -4,28 +4,29 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "429774c2405a7b26903ada0fd8020f3b",
+    "hash": "2b92e176b42bfdbe13153d3eb12a640a",
     "packages": [
         {
             "name": "composer/installers",
-            "version": "v1.0.12",
+            "version": "v1.0.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "4127333b03e8b4c08d081958548aae5419d1a2fa"
+                "reference": "89d77bfbee79e16653f7162c86e602cc188471db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/4127333b03e8b4c08d081958548aae5419d1a2fa",
-                "reference": "4127333b03e8b4c08d081958548aae5419d1a2fa",
+                "url": "https://api.github.com/repos/composer/installers/zipball/89d77bfbee79e16653f7162c86e602cc188471db",
+                "reference": "89d77bfbee79e16653f7162c86e602cc188471db",
                 "shasum": ""
             },
             "replace": {
+                "roundcube/plugin-installer": "*",
                 "shama/baton": "*"
             },
             "require-dev": {
                 "composer/composer": "1.0.*@dev",
-                "phpunit/phpunit": "3.7.*"
+                "phpunit/phpunit": "4.1.*"
             },
             "type": "composer-installer",
             "extra": {
@@ -47,27 +48,32 @@
                 {
                     "name": "Kyle Robinson Young",
                     "email": "kyle@dontkry.com",
-                    "homepage": "https://github.com/shama",
-                    "role": "Developer"
+                    "homepage": "https://github.com/shama"
                 }
             ],
             "description": "A multi-framework Composer library installer",
             "homepage": "http://composer.github.com/installers/",
             "keywords": [
                 "Craft",
+                "Dolibarr",
                 "Hurad",
                 "MODX Evo",
                 "OXID",
+                "Thelia",
                 "WolfCMS",
                 "agl",
                 "annotatecms",
+                "bitrix",
                 "cakephp",
+                "chef",
                 "codeigniter",
                 "concrete5",
                 "croogo",
+                "dokuwiki",
                 "drupal",
                 "elgg",
                 "fuelphp",
+                "grav",
                 "installer",
                 "joomla",
                 "kohana",
@@ -77,9 +83,12 @@
                 "mako",
                 "mediawiki",
                 "modulework",
+                "moodle",
                 "phpbb",
                 "piwik",
                 "ppi",
+                "puppet",
+                "roundcube",
                 "shopware",
                 "silverstripe",
                 "symfony",
@@ -88,7 +97,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2014-02-24 04:21:34"
+            "time": "2014-11-29 01:29:17"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -173,6 +182,130 @@
             "time": "2013-09-09 15:04:54"
         },
         {
+            "name": "koodimonni-language/core-nl_nl",
+            "version": "4.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/core/4.1/nl_NL.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "koodimonni/composer-dropin-installer": ">=0.2.3"
+            },
+            "type": "wordpress-language",
+            "description": "Wordpress core translation for Dutch - nl_nl",
+            "keywords": [
+                "Translation",
+                "Wordpress",
+                "core",
+                "nl_nl"
+            ]
+        },
+        {
+            "name": "koodimonni/composer-dropin-installer",
+            "version": "0.2.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Koodimonni/Composer-Dropin-Installer.git",
+                "reference": "618b96fd3bc8c1532610b7f7baedc4e60736a340"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Koodimonni/Composer-Dropin-Installer/zipball/618b96fd3bc8c1532610b7f7baedc4e60736a340",
+                "reference": "618b96fd3bc8c1532610b7f7baedc4e60736a340",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "1.0.0"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Koodimonni\\Composer\\Dropin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "Koodimonni\\Composer\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "WTFPL"
+            ],
+            "authors": [
+                {
+                    "name": "Onni Hakala",
+                    "email": "onni@koodimonni.fi"
+                }
+            ],
+            "description": "Do what the fuck you want with your composer packages aka. Composer Dropin installer. Install packages or part of packages into custom paths without overwriting existing stuff.",
+            "time": "2015-01-04 10:24:12"
+        },
+        {
+            "name": "trendwerk/editor-capabilities",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/trendwerk/editor-capabilities.git",
+                "reference": "b8f65ff1ab5626ba4b2ac9d43256fd8d98d8aca5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/trendwerk/editor-capabilities/zipball/b8f65ff1ab5626ba4b2ac9d43256fd8d98d8aca5",
+                "reference": "b8f65ff1ab5626ba4b2ac9d43256fd8d98d8aca5",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "v1.0.19",
+                "php": ">=5.4"
+            },
+            "type": "wordpress-muplugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Harold Angenent",
+                    "email": "harold@trendwerk.nl"
+                }
+            ],
+            "description": "Sets up the editor role a bit different. Made for WordPress.",
+            "time": "2014-12-11 15:19:41"
+        },
+        {
+            "name": "trendwerk/post-type-menu-highlight",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/trendwerk/post-type-menu-highlight.git",
+                "reference": "fbb1ae71c808d300398702147e98c27059005e61"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/trendwerk/post-type-menu-highlight/zipball/fbb1ae71c808d300398702147e98c27059005e61",
+                "reference": "fbb1ae71c808d300398702147e98c27059005e61",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "v1.0.19",
+                "php": ">=5.4"
+            },
+            "type": "wordpress-muplugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Harold Angenent",
+                    "email": "harold@trendwerk.nl"
+                }
+            ],
+            "description": "Fixes classes in main menu. Made for WordPress.",
+            "time": "2014-12-11 15:22:08"
+        },
+        {
             "name": "vlucas/phpdotenv",
             "version": "v1.0.9",
             "source": {
@@ -224,11 +357,82 @@
             "time": "2014-10-16 14:50:21"
         }
     ],
-    "packages-dev": [],
+    "packages-dev": [
+        {
+            "name": "trendwerk/dev-mail",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/trendwerk/dev-mail.git",
+                "reference": "c2e0a80e51a7e88c81c9e78909cba66a062d381c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/trendwerk/dev-mail/zipball/c2e0a80e51a7e88c81c9e78909cba66a062d381c",
+                "reference": "c2e0a80e51a7e88c81c9e78909cba66a062d381c",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "v1.0.19",
+                "php": ">=5.4"
+            },
+            "type": "wordpress-muplugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Harold Angenent",
+                    "email": "harold@trendwerk.nl"
+                }
+            ],
+            "description": "Redirect all mails on development and staging environments. Made for WordPress.",
+            "time": "2014-12-11 15:04:35"
+        },
+        {
+            "name": "trendwerk/dev-uploads",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/trendwerk/dev-uploads.git",
+                "reference": "bb35534d2d97129b6b030d3cbc8db89877f5058d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/trendwerk/dev-uploads/zipball/bb35534d2d97129b6b030d3cbc8db89877f5058d",
+                "reference": "bb35534d2d97129b6b030d3cbc8db89877f5058d",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "v1.0.19",
+                "php": ">=5.4"
+            },
+            "type": "wordpress-muplugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Harold Angenent",
+                    "email": "harold@trendwerk.nl"
+                }
+            ],
+            "description": "Placeholder images for development and staging environments. Made for WordPress.",
+            "time": "2014-12-10 16:14:33"
+        }
+    ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "trendwerk/editor-capabilities": 20,
+        "trendwerk/post-type-menu-highlight": 20,
+        "trendwerk/dev-mail": 20,
+        "trendwerk/dev-uploads": 20
+    },
     "prefer-stable": false,
+    "prefer-lowest": false,
     "platform": {
         "php": ">=5.4"
     },
