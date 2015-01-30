@@ -48,8 +48,8 @@
 		}
 	],
 	"require-dev": {
-		"trendwerk/dev-mail": "dev-master",
-		"trendwerk/dev-uploads": "dev-master"
+		"trendwerk/dev-mail": "1.0.0",
+		"trendwerk/dev-uploads": "1.0.0"
 	},
 	"require": {
 		"php": ">=5.4",
@@ -57,8 +57,8 @@
 		"vlucas/phpdotenv": "1.0.9",
 		"johnpbloch/wordpress": "4.1",
 		"koodimonni-language/core-nl_nl": "4.1",
-		"trendwerk/editor-capabilities": "dev-master",
-		"trendwerk/post-type-menu-highlight": "dev-master"
+		"trendwerk/editor-capabilities": "1.0.0",
+		"trendwerk/post-type-menu-highlight": "1.0.0"
 	},
 	"extra": {
 		"dropin-paths": {

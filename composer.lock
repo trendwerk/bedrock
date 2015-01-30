@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2b92e176b42bfdbe13153d3eb12a640a",
+    "hash": "9c83c36cacc368bd2894883c275e51e4",
     "packages": [
         {
             "name": "composer/installers",
@@ -243,16 +243,16 @@
         },
         {
             "name": "trendwerk/editor-capabilities",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/trendwerk/editor-capabilities.git",
-                "reference": "b8f65ff1ab5626ba4b2ac9d43256fd8d98d8aca5"
+                "reference": "181253f6fc10f616b9f6ae6ffb7c06cb5b8e59ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/trendwerk/editor-capabilities/zipball/b8f65ff1ab5626ba4b2ac9d43256fd8d98d8aca5",
-                "reference": "b8f65ff1ab5626ba4b2ac9d43256fd8d98d8aca5",
+                "url": "https://api.github.com/repos/trendwerk/editor-capabilities/zipball/181253f6fc10f616b9f6ae6ffb7c06cb5b8e59ac",
+                "reference": "181253f6fc10f616b9f6ae6ffb7c06cb5b8e59ac",
                 "shasum": ""
             },
             "require": {
@@ -271,20 +271,20 @@
                 }
             ],
             "description": "Sets up the editor role a bit different. Made for WordPress.",
-            "time": "2014-12-11 15:19:41"
+            "time": "2015-01-30 12:24:18"
         },
         {
             "name": "trendwerk/post-type-menu-highlight",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/trendwerk/post-type-menu-highlight.git",
-                "reference": "fbb1ae71c808d300398702147e98c27059005e61"
+                "reference": "6add4b7df0cc9b3e048374f435cd17766819339d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/trendwerk/post-type-menu-highlight/zipball/fbb1ae71c808d300398702147e98c27059005e61",
-                "reference": "fbb1ae71c808d300398702147e98c27059005e61",
+                "url": "https://api.github.com/repos/trendwerk/post-type-menu-highlight/zipball/6add4b7df0cc9b3e048374f435cd17766819339d",
+                "reference": "6add4b7df0cc9b3e048374f435cd17766819339d",
                 "shasum": ""
             },
             "require": {
@@ -303,7 +303,7 @@
                 }
             ],
             "description": "Fixes classes in main menu. Made for WordPress.",
-            "time": "2014-12-11 15:22:08"
+            "time": "2015-01-30 13:07:21"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -360,16 +360,16 @@
     "packages-dev": [
         {
             "name": "trendwerk/dev-mail",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/trendwerk/dev-mail.git",
-                "reference": "c2e0a80e51a7e88c81c9e78909cba66a062d381c"
+                "reference": "ec5b121ebb121a192b73654591150bb74d03eb88"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/trendwerk/dev-mail/zipball/c2e0a80e51a7e88c81c9e78909cba66a062d381c",
-                "reference": "c2e0a80e51a7e88c81c9e78909cba66a062d381c",
+                "url": "https://api.github.com/repos/trendwerk/dev-mail/zipball/ec5b121ebb121a192b73654591150bb74d03eb88",
+                "reference": "ec5b121ebb121a192b73654591150bb74d03eb88",
                 "shasum": ""
             },
             "require": {
@@ -388,20 +388,20 @@
                 }
             ],
             "description": "Redirect all mails on development and staging environments. Made for WordPress.",
-            "time": "2014-12-11 15:04:35"
+            "time": "2015-01-30 12:15:12"
         },
         {
             "name": "trendwerk/dev-uploads",
-            "version": "dev-master",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/trendwerk/dev-uploads.git",
-                "reference": "bb35534d2d97129b6b030d3cbc8db89877f5058d"
+                "reference": "f8b6fdc7cc22591e28226ef03bf42beac7889e93"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/trendwerk/dev-uploads/zipball/bb35534d2d97129b6b030d3cbc8db89877f5058d",
-                "reference": "bb35534d2d97129b6b030d3cbc8db89877f5058d",
+                "url": "https://api.github.com/repos/trendwerk/dev-uploads/zipball/f8b6fdc7cc22591e28226ef03bf42beac7889e93",
+                "reference": "f8b6fdc7cc22591e28226ef03bf42beac7889e93",
                 "shasum": ""
             },
             "require": {
@@ -420,17 +420,12 @@
                 }
             ],
             "description": "Placeholder images for development and staging environments. Made for WordPress.",
-            "time": "2014-12-10 16:14:33"
+            "time": "2015-01-30 12:19:38"
         }
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "trendwerk/editor-capabilities": 20,
-        "trendwerk/post-type-menu-highlight": 20,
-        "trendwerk/dev-mail": 20,
-        "trendwerk/dev-uploads": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
