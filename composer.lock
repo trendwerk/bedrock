@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9c83c36cacc368bd2894883c275e51e4",
+    "hash": "66e04fe300b5e3f67a35ddffefec93a2",
     "packages": [
         {
             "name": "composer/installers",
@@ -360,16 +360,16 @@
     "packages-dev": [
         {
             "name": "trendwerk/dev-mail",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/trendwerk/dev-mail.git",
-                "reference": "ec5b121ebb121a192b73654591150bb74d03eb88"
+                "reference": "cec816274fca5aee5f80b8dd71f2c4fb4502bf24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/trendwerk/dev-mail/zipball/ec5b121ebb121a192b73654591150bb74d03eb88",
-                "reference": "ec5b121ebb121a192b73654591150bb74d03eb88",
+                "url": "https://api.github.com/repos/trendwerk/dev-mail/zipball/cec816274fca5aee5f80b8dd71f2c4fb4502bf24",
+                "reference": "cec816274fca5aee5f80b8dd71f2c4fb4502bf24",
                 "shasum": ""
             },
             "require": {
@@ -388,20 +388,20 @@
                 }
             ],
             "description": "Redirect all mails on development and staging environments. Made for WordPress.",
-            "time": "2015-01-30 12:15:12"
+            "time": "2015-01-30 15:18:19"
         },
         {
             "name": "trendwerk/dev-uploads",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/trendwerk/dev-uploads.git",
-                "reference": "f8b6fdc7cc22591e28226ef03bf42beac7889e93"
+                "reference": "c527f1e853c8fa0236157182e92aa57e1e41cc67"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/trendwerk/dev-uploads/zipball/f8b6fdc7cc22591e28226ef03bf42beac7889e93",
-                "reference": "f8b6fdc7cc22591e28226ef03bf42beac7889e93",
+                "url": "https://api.github.com/repos/trendwerk/dev-uploads/zipball/c527f1e853c8fa0236157182e92aa57e1e41cc67",
+                "reference": "c527f1e853c8fa0236157182e92aa57e1e41cc67",
                 "shasum": ""
             },
             "require": {
@@ -420,7 +420,7 @@
                 }
             ],
             "description": "Placeholder images for development and staging environments. Made for WordPress.",
-            "time": "2015-01-30 12:19:38"
+            "time": "2015-01-30 15:18:00"
         }
     ],
     "aliases": [],

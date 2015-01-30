@@ -48,8 +48,8 @@
 		}
 	],
 	"require-dev": {
-		"trendwerk/dev-mail": "1.0.0",
-		"trendwerk/dev-uploads": "1.0.0"
+		"trendwerk/dev-mail": "1.0.1",
+		"trendwerk/dev-uploads": "1.0.1"
 	},
 	"require": {
 		"php": ">=5.4",
