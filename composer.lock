@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "66e04fe300b5e3f67a35ddffefec93a2",
+    "hash": "3efb7afaf21dcbaa79added636b06d85",
     "packages": [
         {
             "name": "composer/installers",
@@ -392,16 +392,16 @@
         },
         {
             "name": "trendwerk/dev-uploads",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/trendwerk/dev-uploads.git",
-                "reference": "c527f1e853c8fa0236157182e92aa57e1e41cc67"
+                "reference": "9e34b52bc6882024e29651fd7eb9cf8ce568beee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/trendwerk/dev-uploads/zipball/c527f1e853c8fa0236157182e92aa57e1e41cc67",
-                "reference": "c527f1e853c8fa0236157182e92aa57e1e41cc67",
+                "url": "https://api.github.com/repos/trendwerk/dev-uploads/zipball/9e34b52bc6882024e29651fd7eb9cf8ce568beee",
+                "reference": "9e34b52bc6882024e29651fd7eb9cf8ce568beee",
                 "shasum": ""
             },
             "require": {
@@ -420,7 +420,7 @@
                 }
             ],
             "description": "Placeholder images for development and staging environments. Made for WordPress.",
-            "time": "2015-01-30 15:18:00"
+            "time": "2015-02-04 08:21:22"
         }
     ],
     "aliases": [],
