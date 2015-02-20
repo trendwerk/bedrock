@@ -58,7 +58,7 @@
 		"johnpbloch/wordpress": "4.1.1",
 		"koodimonni-language/core-nl_nl": "4.1.1",
 		"trendwerk/editor-capabilities": "1.0.0",
-		"trendwerk/post-type-menu-highlight": "1.1.0"
+		"trendwerk/post-type-menu-highlight": "1.1.1"
 	},
 	"extra": {
 		"dropin-paths": {
