@@ -14,18 +14,3 @@ set :log_level, :info
 set :linked_files, fetch(:linked_files, []).push('.env')
 set :linked_files, fetch(:linked_files, []).push('web/.htaccess')
 set :linked_dirs, fetch(:linked_dirs, []).push('web/app/uploads')
-
-# Deploy tasks
-namespace :deploy do
-
-  desc 'Restart application'
-  task :restart do
-    on roles(:app), in: :sequence, wait: 5 do
-      # Your restart mechanism here, for example:
-      # execute :touch, release_path.join('tmp/restart.txt')
-    end
-  end
-
-  # after :publishing, :restart
-
-end
