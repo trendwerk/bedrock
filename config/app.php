@@ -17,7 +17,7 @@ define( 'WP_ENV', getenv( 'WP_ENV' ) ? getenv( 'WP_ENV' ) : 'development' );
 define( 'WP_HOME', getenv( 'WP_HOME' ) );
 define( 'WP_SITEURL', getenv( 'WP_SITEURL' ) ? getenv( 'WP_SITEURL' ) : WP_HOME . '/wp' );
 
-$environment = dirname( __FILE__ ) . '/env/' . WP_ENV . '.php';
+$environment = __DIR__ . '/env/' . WP_ENV . '.php';
 
 if( file_exists( $environment ) )
 	require_once( $environment );
@@ -45,14 +45,14 @@ define( 'WP_CONTENT_URL', WP_HOME . CONTENT_DIR );
 /**
  * Keys and salts
  */
-define( 'AUTH_KEY',         getenv('AUTH_KEY') );
-define( 'SECURE_AUTH_KEY',  getenv('SECURE_AUTH_KEY') );
-define( 'LOGGED_IN_KEY',    getenv('LOGGED_IN_KEY') );
-define( 'NONCE_KEY',        getenv('NONCE_KEY') );
-define( 'AUTH_SALT',        getenv('AUTH_SALT') );
+define( 'AUTH_KEY', getenv('AUTH_KEY') );
+define( 'SECURE_AUTH_KEY', getenv('SECURE_AUTH_KEY') );
+define( 'LOGGED_IN_KEY', getenv('LOGGED_IN_KEY') );
+define( 'NONCE_KEY', getenv('NONCE_KEY') );
+define( 'AUTH_SALT', getenv('AUTH_SALT') );
 define( 'SECURE_AUTH_SALT', getenv('SECURE_AUTH_SALT') );
-define( 'LOGGED_IN_SALT',   getenv('LOGGED_IN_SALT') );
-define( 'NONCE_SALT',       getenv('NONCE_SALT') );
+define( 'LOGGED_IN_SALT', getenv('LOGGED_IN_SALT') );
+define( 'NONCE_SALT', getenv('NONCE_SALT') );
 
 /**
  * Other WordPress settings
