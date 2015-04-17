@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f44222817f84d6be84d59e67638704fc",
+    "hash": "06808c83a3168f106f065ebab4774577",
     "packages": [
         {
             "name": "composer/installers",
@@ -359,6 +359,41 @@
     ],
     "packages-dev": [
         {
+            "name": "trendwerk/debug",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/trendwerk/debug.git",
+                "reference": "27742adea7d35be224cd92096dbb65b9771ca4a9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/trendwerk/debug/zipball/27742adea7d35be224cd92096dbb65b9771ca4a9",
+                "reference": "27742adea7d35be224cd92096dbb65b9771ca4a9",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "v1.0.19",
+                "php": ">=5.4",
+                "wpackagist-plugin/debug-bar": "~0.8",
+                "wpackagist-plugin/debug-bar-slow-actions": "~0.8",
+                "wpackagist-plugin/kint-debugger": "~0.3"
+            },
+            "type": "wordpress-muplugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Harold Angenent",
+                    "email": "harold@trendwerk.nl"
+                }
+            ],
+            "description": "Debug tools for WordPress.",
+            "time": "2015-04-17 08:45:35"
+        },
+        {
             "name": "trendwerk/dev-mail",
             "version": "1.0.1",
             "source": {
@@ -421,6 +456,66 @@
             ],
             "description": "Placeholder images for development and staging environments. Made for WordPress.",
             "time": "2015-04-16 12:37:54"
+        },
+        {
+            "name": "wpackagist-plugin/debug-bar",
+            "version": "0.8.2",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/debug-bar/",
+                "reference": "tags/0.8.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/debug-bar.0.8.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/debug-bar/"
+        },
+        {
+            "name": "wpackagist-plugin/debug-bar-slow-actions",
+            "version": "0.8.3",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/debug-bar-slow-actions/",
+                "reference": "tags/0.8.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/debug-bar-slow-actions.0.8.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/debug-bar-slow-actions/"
+        },
+        {
+            "name": "wpackagist-plugin/kint-debugger",
+            "version": "0.3",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/kint-debugger/",
+                "reference": "tags/0.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/kint-debugger.0.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/kint-debugger/"
         }
     ],
     "aliases": [],
