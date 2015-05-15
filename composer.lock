@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "06808c83a3168f106f065ebab4774577",
+    "hash": "6f3842d03eaaf18f24d8bbda952470ba",
     "packages": [
         {
             "name": "composer/installers",
@@ -275,16 +275,16 @@
         },
         {
             "name": "trendwerk/post-type-menu-highlight",
-            "version": "1.1.1",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/trendwerk/post-type-menu-highlight.git",
-                "reference": "55f028e6e21471526c5edf42b5128f8e866e0ee7"
+                "reference": "bacd6f253fc1dd74b61e975e2965a8b1ba09cba8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/trendwerk/post-type-menu-highlight/zipball/55f028e6e21471526c5edf42b5128f8e866e0ee7",
-                "reference": "55f028e6e21471526c5edf42b5128f8e866e0ee7",
+                "url": "https://api.github.com/repos/trendwerk/post-type-menu-highlight/zipball/bacd6f253fc1dd74b61e975e2965a8b1ba09cba8",
+                "reference": "bacd6f253fc1dd74b61e975e2965a8b1ba09cba8",
                 "shasum": ""
             },
             "require": {
@@ -303,7 +303,7 @@
                 }
             ],
             "description": "Fixes classes in main menu. Made for WordPress.",
-            "time": "2015-02-20 14:03:15"
+            "time": "2015-04-24 13:38:22"
         },
         {
             "name": "vlucas/phpdotenv",
