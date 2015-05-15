@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6f3842d03eaaf18f24d8bbda952470ba",
+    "hash": "05458275d0c6844a8fb11f3a6d918ceb",
     "packages": [
         {
             "name": "composer/installers",
@@ -101,16 +101,16 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.1.1",
+            "version": "4.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "b6a0e3c2ef178f97ce8b709897fd4411420b3ccb"
+                "reference": "998358f3b7a2c75caae11ff3c79e514951aac7f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/b6a0e3c2ef178f97ce8b709897fd4411420b3ccb",
-                "reference": "b6a0e3c2ef178f97ce8b709897fd4411420b3ccb",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/998358f3b7a2c75caae11ff3c79e514951aac7f6",
+                "reference": "998358f3b7a2c75caae11ff3c79e514951aac7f6",
                 "shasum": ""
             },
             "require": {
@@ -134,7 +134,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2015-02-18 22:16:06"
+            "time": "2015-05-07 01:46:09"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -183,10 +183,10 @@
         },
         {
             "name": "koodimonni-language/core-nl_nl",
-            "version": "4.1.1",
+            "version": "4.2.2",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/core/4.1.1/nl_NL.zip",
+                "url": "https://downloads.wordpress.org/translation/core/4.2.2/nl_NL.zip",
                 "reference": null,
                 "shasum": null
             },
