@@ -59,7 +59,8 @@
 		"johnpbloch/wordpress": "4.2.2",
 		"koodimonni-language/core-nl_nl": "4.2.2",
 		"trendwerk/editor-capabilities": "1.0.0",
-		"trendwerk/post-type-menu-highlight": "1.1.2"
+		"trendwerk/post-type-menu-highlight": "1.1.2",
+		"wpackagist-plugin/timber-library": "0.21.3"
 	},
 	"extra": {
 		"dropin-paths": {

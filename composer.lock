@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "05458275d0c6844a8fb11f3a6d918ceb",
+    "hash": "c73c8ab4dd547f985aef81e7bf60e294",
     "packages": [
         {
             "name": "composer/installers",
@@ -355,6 +355,26 @@
                 "environment"
             ],
             "time": "2014-10-16 14:50:21"
+        },
+        {
+            "name": "wpackagist-plugin/timber-library",
+            "version": "0.21.3",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/timber-library/",
+                "reference": "tags/0.21.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/timber-library.0.21.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/timber-library/"
         }
     ],
     "packages-dev": [
