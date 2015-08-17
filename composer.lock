@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c73c8ab4dd547f985aef81e7bf60e294",
+    "hash": "1e0dab5fe82725c036130c3b77da210d",
     "packages": [
         {
             "name": "composer/installers",
@@ -138,20 +138,20 @@
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
-            "version": "0.2.0",
+            "version": "0.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core-installer.git",
-                "reference": "a4c08e91be99e858c7778c2f52a4d73820147c2e"
+                "reference": "a04c2c383ef13aae077f36799ed2eafdebd618d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core-installer/zipball/a4c08e91be99e858c7778c2f52a4d73820147c2e",
-                "reference": "a4c08e91be99e858c7778c2f52a4d73820147c2e",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core-installer/zipball/a04c2c383ef13aae077f36799ed2eafdebd618d2",
+                "reference": "a04c2c383ef13aae077f36799ed2eafdebd618d2",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "1.0.0"
+                "composer-plugin-api": "^1.0"
             },
             "conflict": {
                 "composer/installers": "<1.0.6"
@@ -179,7 +179,10 @@
                 }
             ],
             "description": "A custom installer to handle deploying WordPress with composer",
-            "time": "2013-09-09 15:04:54"
+            "keywords": [
+                "wordpress"
+            ],
+            "time": "2015-06-11 15:15:30"
         },
         {
             "name": "koodimonni-language/core-nl_nl",
@@ -375,6 +378,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/timber-library/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-retina-2x",
+            "version": "3.4.2",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/wp-retina-2x/",
+                "reference": "tags/3.4.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-retina-2x.3.4.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-retina-2x/"
         }
     ],
     "packages-dev": [
