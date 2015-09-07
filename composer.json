@@ -28,7 +28,7 @@
 		"issues": "https://github.com/trendwerk/bedrock/issues"
 	},
 	"config": {
-		"preferred-install": "dist",
+		"preferred-install": "dist"
 	},
 	"repositories": [
 		{
