@@ -5,10 +5,12 @@ $webroot_dir = $root_dir . '/web';
 /**
  * Load environment variables with Dotenv
  */
-if( file_exists( $root_dir . '/.env' ) )
-	Dotenv::load( $root_dir );
+$dotenv = new Dotenv\Dotenv($root_dir);
 
-Dotenv::required( array( 'DB_NAME', 'DB_USER', 'DB_PASSWORD', 'WP_HOME' ) );
+if (file_exists( $root_dir . '/.env' )) {
+	$dotenv->load( $root_dir );
+	$dotenv->required( array( 'DB_NAME', 'DB_USER', 'DB_PASSWORD', 'WP_HOME' ) );
+}
 
 /**
  * Environment settings
