@@ -13,7 +13,7 @@ Much of the philosophy behind Bedrock is inspired by the [Twelve-Factor App](htt
 * Environment variables with [Dotenv](https://github.com/vlucas/phpdotenv)
 * Autoloader for mu-plugins (use regular plugins as mu-plugins)
 
-Use [bedrock-ansible](https://github.com/roots/bedrock-ansible) for additional features:
+Use [Trellis](https://github.com/roots/trellis) for additional features:
 
 * Easy development environments with [Vagrant](http://www.vagrantup.com/)
 * Easy server provisioning with [Ansible](http://www.ansible.com/) (Ubuntu 14.04, PHP 5.6 or HHVM, MariaDB)
@@ -21,7 +21,7 @@ Use [bedrock-ansible](https://github.com/roots/bedrock-ansible) for additional f
 
 ## Requirements
 
-* PHP >= 5.4
+* PHP >= 5.5
 * Composer - [Install](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx)
 
 ## Installation
@@ -44,7 +44,7 @@ Use [bedrock-ansible](https://github.com/roots/bedrock-ansible) for additional f
 
 There are two methods to deploy Bedrock sites out of the box:
 
-* [bedrock-ansible](https://github.com/roots/bedrock-ansible)
+* [Trellis](https://github.com/roots/trellis)
 * [bedrock-capistrano](https://github.com/roots/bedrock-capistrano)
 
 Any other deployment method can be used as well with one requirement:
@@ -53,12 +53,7 @@ Any other deployment method can be used as well with one requirement:
 
 ## Documentation
 
-* [Folder structure](https://github.com/roots/bedrock/wiki/Folder-structure)
-* [Configuration files](https://github.com/roots/bedrock/wiki/Configuration-files)
-* [Environment variables](https://github.com/roots/bedrock/wiki/Environment-variables)
-* [Composer](https://github.com/roots/bedrock/wiki/Composer)
-* [wp-cron](https://github.com/roots/bedrock/wiki/wp-cron)
-* [mu-plugins autoloader](https://github.com/roots/bedrock/wiki/mu-plugins-autoloader)
+Bedrock documentation is available at [https://roots.io/bedrock/docs/](https://roots.io/bedrock/docs/).
 
 ## Contributing
 
