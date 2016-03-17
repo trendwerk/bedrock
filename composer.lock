@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "160433fd9ceb2c4490f7aa08546d0f96",
+    "hash": "fe238c34becfe1afc2d2d78e89ff0786",
     "packages": [
         {
             "name": "composer/installers",
@@ -101,16 +101,16 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.3.1",
+            "version": "4.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "cfcf25eb42baeb7316a61c7a64e9a1ab3e291f2f"
+                "reference": "fe9320de0793602084c600e22c0c5e0bb601a264"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/cfcf25eb42baeb7316a61c7a64e9a1ab3e291f2f",
-                "reference": "cfcf25eb42baeb7316a61c7a64e9a1ab3e291f2f",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/fe9320de0793602084c600e22c0c5e0bb601a264",
+                "reference": "fe9320de0793602084c600e22c0c5e0bb601a264",
                 "shasum": ""
             },
             "require": {
@@ -134,7 +134,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2015-09-15 15:01:23"
+            "time": "2016-02-02 17:16:14"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -186,10 +186,10 @@
         },
         {
             "name": "koodimonni-language/core-nl_nl",
-            "version": "4.3.1",
+            "version": "4.4.2",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/core/4.3.1/nl_NL.zip",
+                "url": "https://downloads.wordpress.org/translation/core/4.4.2/nl_NL.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -281,16 +281,16 @@
         },
         {
             "name": "trendwerk/post-type-menu-highlight",
-            "version": "1.1.2",
+            "version": "1.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/trendwerk/post-type-menu-highlight.git",
-                "reference": "bacd6f253fc1dd74b61e975e2965a8b1ba09cba8"
+                "reference": "b612156ebe84a0f5fab317134cc32997e157dcda"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/trendwerk/post-type-menu-highlight/zipball/bacd6f253fc1dd74b61e975e2965a8b1ba09cba8",
-                "reference": "bacd6f253fc1dd74b61e975e2965a8b1ba09cba8",
+                "url": "https://api.github.com/repos/trendwerk/post-type-menu-highlight/zipball/b612156ebe84a0f5fab317134cc32997e157dcda",
+                "reference": "b612156ebe84a0f5fab317134cc32997e157dcda",
                 "shasum": ""
             },
             "require": {
@@ -309,7 +309,7 @@
                 }
             ],
             "description": "Fixes classes in main menu. Made for WordPress.",
-            "time": "2015-04-24 13:38:22"
+            "time": "2015-11-30 16:10:20"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -363,16 +363,36 @@
             "time": "2015-12-29 15:10:30"
         },
         {
-            "name": "wpackagist-plugin/timber-library",
-            "version": "0.21.3",
+            "name": "wpackagist-plugin/limit-login-attempts",
+            "version": "1.7.1",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/timber-library/",
-                "reference": "tags/0.21.3"
+                "url": "https://plugins.svn.wordpress.org/limit-login-attempts/",
+                "reference": "tags/1.7.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/timber-library.0.21.3.zip",
+                "url": "https://downloads.wordpress.org/plugin/limit-login-attempts.1.7.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/limit-login-attempts/"
+        },
+        {
+            "name": "wpackagist-plugin/timber-library",
+            "version": "0.22.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/timber-library/",
+                "reference": "tags/0.22.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/timber-library.0.22.5.zip",
                 "reference": null,
                 "shasum": null
             },
