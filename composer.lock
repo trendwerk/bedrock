@@ -1,10 +1,11 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "63462a66bef625f3170051be1e7566b1",
+    "hash": "5422533041e038e467278e9e4d1705c4",
+    "content-hash": "cb3faf5deebb97e5691a727f2e20e6b5",
     "packages": [
         {
             "name": "composer/installers",
@@ -101,16 +102,16 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.4.2",
+            "version": "4.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "fe9320de0793602084c600e22c0c5e0bb601a264"
+                "reference": "a975896d0806f3dc1ccf3e170f91226440b267cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/fe9320de0793602084c600e22c0c5e0bb601a264",
-                "reference": "fe9320de0793602084c600e22c0c5e0bb601a264",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/a975896d0806f3dc1ccf3e170f91226440b267cb",
+                "reference": "a975896d0806f3dc1ccf3e170f91226440b267cb",
                 "shasum": ""
             },
             "require": {
@@ -134,7 +135,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2016-02-02 17:16:14"
+            "time": "2016-04-12 17:46:20"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -186,10 +187,10 @@
         },
         {
             "name": "koodimonni-language/core-nl_nl",
-            "version": "4.4.2",
+            "version": "4.5",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/core/4.4.2/nl_NL.zip",
+                "url": "https://downloads.wordpress.org/translation/core/4.5/nl_NL.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -345,6 +346,38 @@
                 "wordpress wp bcrypt password"
             ],
             "time": "2016-03-01 16:27:06"
+        },
+        {
+            "name": "trendwerk/credits",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/trendwerk/credits.git",
+                "reference": "04b7cab4855412cafb8110e235597f0effe6d3ad"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/trendwerk/credits/zipball/04b7cab4855412cafb8110e235597f0effe6d3ad",
+                "reference": "04b7cab4855412cafb8110e235597f0effe6d3ad",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "v1.0.19",
+                "php": ">=5.4"
+            },
+            "type": "wordpress-muplugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Sjoerd Boerrigter",
+                    "email": "sjoerd@trendwerk.nl"
+                }
+            ],
+            "description": "Adds a metatag to credit the developer (Trendwerk).",
+            "time": "2016-04-14 16:33:33"
         },
         {
             "name": "trendwerk/editor-capabilities",
@@ -627,7 +660,7 @@
             "version": "0.8.3",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/debug-bar-slow-actions/",
+                "url": "https://plugins.svn.wordpress.org/debug-bar-slow-actions/",
                 "reference": "tags/0.8.3"
             },
             "dist": {
@@ -647,7 +680,7 @@
             "version": "0.3",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/kint-debugger/",
+                "url": "https://plugins.svn.wordpress.org/kint-debugger/",
                 "reference": "tags/0.3"
             },
             "dist": {
@@ -667,6 +700,7 @@
     "minimum-stability": "stable",
     "stability-flags": [],
     "prefer-stable": false,
+    "prefer-lowest": false,
     "platform": {
         "php": ">=5.5"
     },
