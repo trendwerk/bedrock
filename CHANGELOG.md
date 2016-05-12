@@ -1,4 +1,17 @@
-### HEAD
+### 1.6.3: 2016-05-06
+
+* Update to WordPress 4.5.2
+
+### 1.6.2: 2016-04-26
+
+* Update to WordPress 4.5.1
+
+### 1.6.1: 2016-04-12
+
+* Update to WordPress 4.5
+* Update coding standards (PSR-2) ([#244](https://github.com/roots/bedrock/pull/244))
+
+### 1.6.0: 2016-03-03
 
 * Add wp-password-bcrypt for more secure passwords ([#243](https://github.com/roots/bedrock/pull/243))
 
