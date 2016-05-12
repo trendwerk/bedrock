@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3c5ec9de1110ca6d40f6245372ff87d2",
+    "hash": "933b85d5f979f46dd3ab4e6ea922d0ec",
     "packages": [
         {
             "name": "composer/installers",
@@ -614,16 +614,16 @@
         },
         {
             "name": "trendwerk/debug",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/trendwerk/debug.git",
-                "reference": "27742adea7d35be224cd92096dbb65b9771ca4a9"
+                "reference": "c1fc32c1b69512c41ee73ceef1b275b229675933"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/trendwerk/debug/zipball/27742adea7d35be224cd92096dbb65b9771ca4a9",
-                "reference": "27742adea7d35be224cd92096dbb65b9771ca4a9",
+                "url": "https://api.github.com/repos/trendwerk/debug/zipball/c1fc32c1b69512c41ee73ceef1b275b229675933",
+                "reference": "c1fc32c1b69512c41ee73ceef1b275b229675933",
                 "shasum": ""
             },
             "require": {
@@ -645,7 +645,7 @@
                 }
             ],
             "description": "Debug tools for WordPress.",
-            "time": "2015-04-17 08:45:35"
+            "time": "2016-05-12 13:14:50"
         },
         {
             "name": "trendwerk/dev-mail",
