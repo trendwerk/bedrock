@@ -1,81 +1,81 @@
 {
-	"name": "trendwerk/bedrock",
-	"type": "project",
-	"license": "MIT",
-	"description": "A modern WordPress stack",
-	"homepage": "https://github.com/trendwerk/bedrock",
-	"authors": [
-		{
-			"name": "Scott Walkinshaw",
-			"email": "scott.walkinshaw@gmail.com",
-			"homepage": "https://github.com/swalkinshaw"
-		},
-		{
-			"name": "Ben Word",
-			"email": "ben@benword.com",
-			"homepage": "https://github.com/retlehs"
-		},
-		{
-			"name": "Harold Angenent",
-			"email": "harold@trendwerk.nl",
-			"homepage": "https://github.com/haroldangenent"
-		}
-	],
-	"keywords": [
-		"wordpress", "stack", "capistrano", "composer", "wp"
-	],
-	"support": {
-		"issues": "https://github.com/trendwerk/bedrock/issues"
-	},
-	"config": {
-		"preferred-install": "dist"
-	},
-	"repositories": [
-		{
-			"type": "composer",
-			"url": "https://wpackagist.org"
-		},
-		{
-			"type": "composer",
-			"url": "https://wp-languages.github.io"
-		}
-	],
-	"require-dev": {
-		"squizlabs/php_codesniffer": "^2.6.0",
-		"trendwerk/dev-mail": "1.0.1",
-		"trendwerk/dev-uploads": "1.0.3",
-		"trendwerk/debug": "1.0.0"
-	},
-	"require": {
-		"php": ">=5.5",
-		"composer/installers": "~1.0",
-    	"oscarotero/env": "^1.0",
-		"vlucas/phpdotenv": "~2.0",
-		"johnpbloch/wordpress": "4.5.2",
-		"koodimonni-language/core-nl_nl": "4.5.2",
-		"trendwerk/credits": "0.1.0",
-		"trendwerk/editor-capabilities": "1.0.0",
-		"trendwerk/post-type-menu-highlight": "1.1.4",
-		"wpackagist-plugin/timber-library": "0.22.5",
-		"wpackagist-plugin/limit-login-attempts": "1.7.1",
-		"roots/wp-password-bcrypt": "1.0.0"
-	},
-	"extra": {
-		"dropin-paths": {
-			"web/app/languages/": ["vendor:koodimonni-language"],
-			"web/app/languages/plugins/": ["vendor:koodimonni-plugin-language"],
-			"web/app/languages/themes/": ["vendor:koodimonni-theme-language"]
-		},
-		"installer-paths": {
-			"web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
-			"web/app/plugins/{$name}/": ["type:wordpress-plugin"],
-			"web/app/themes/{$name}/": ["type:wordpress-theme"]
-		},
-		"wordpress-install-dir": "web/wp"
-	},
-	"scripts": {
-		"test": [
-			"vendor/bin/phpcs --ignore=web/wp/,web/app/,vendor/ -n -s ."
-		]
-	}
+  "name": "trendwerk/bedrock",
+  "type": "project",
+  "license": "MIT",
+  "description": "A modern WordPress stack",
+  "homepage": "https://github.com/trendwerk/bedrock",
+  "authors": [
+    {
+      "name": "Scott Walkinshaw",
+      "email": "scott.walkinshaw@gmail.com",
+      "homepage": "https://github.com/swalkinshaw"
+    },
+    {
+      "name": "Ben Word",
+      "email": "ben@benword.com",
+      "homepage": "https://github.com/retlehs"
+    },
+    {
+      "name": "Harold Angenent",
+      "email": "harold@trendwerk.nl",
+      "homepage": "https://github.com/haroldangenent"
+    }
+  ],
+  "keywords": [
+    "wordpress", "stack", "capistrano", "composer", "wp"
+  ],
+  "support": {
+    "issues": "https://github.com/trendwerk/bedrock/issues"
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    },
+    {
+      "type": "composer",
+      "url": "https://wp-languages.github.io"
+    }
+  ],
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^2.6.0",
+    "trendwerk/dev-mail": "1.0.1",
+    "trendwerk/dev-uploads": "1.0.3",
+    "trendwerk/debug": "1.0.0"
+  },
+  "require": {
+    "php": ">=5.5",
+    "composer/installers": "~1.0",
+    "oscarotero/env": "^1.0",
+    "vlucas/phpdotenv": "~2.0",
+    "johnpbloch/wordpress": "4.5.2",
+    "koodimonni-language/core-nl_nl": "4.5.2",
+    "trendwerk/credits": "0.1.0",
+    "trendwerk/editor-capabilities": "1.0.0",
+    "trendwerk/post-type-menu-highlight": "1.1.4",
+    "wpackagist-plugin/timber-library": "0.22.5",
+    "wpackagist-plugin/limit-login-attempts": "1.7.1",
+    "roots/wp-password-bcrypt": "1.0.0"
+  },
+  "extra": {
+    "dropin-paths": {
+      "web/app/languages/": ["vendor:koodimonni-language"],
+      "web/app/languages/plugins/": ["vendor:koodimonni-plugin-language"],
+      "web/app/languages/themes/": ["vendor:koodimonni-theme-language"]
+    },
+    "installer-paths": {
+      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+      "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
+      "web/app/themes/{$name}/": ["type:wordpress-theme"]
+    },
+    "wordpress-install-dir": "web/wp"
+  },
+  "scripts": {
+    "test": [
+      "vendor/bin/phpcs --ignore=web/wp/,web/app/,vendor/ -n -s ."
+    ]
+  }
 }
