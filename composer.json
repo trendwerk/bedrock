@@ -41,6 +41,7 @@
 		}
 	],
 	"require-dev": {
+		"squizlabs/php_codesniffer": "^2.6.0",
 		"trendwerk/dev-mail": "1.0.1",
 		"trendwerk/dev-uploads": "1.0.3",
 		"trendwerk/debug": "1.0.0"
@@ -71,5 +72,10 @@
 			"web/app/themes/{$name}/": ["type:wordpress-theme"]
 		},
 		"wordpress-install-dir": "web/wp"
+	},
+	"scripts": {
+		"test": [
+			"vendor/bin/phpcs --ignore=web/wp/,web/app/,vendor/ -n -s ."
+		]
 	}
 }
