@@ -56,7 +56,7 @@
     "trendwerk/credits": "0.1.x",
     "trendwerk/editor-capabilities": "1.0.x",
     "trendwerk/post-type-menu-highlight": "1.1.x",
-    "wpackagist-plugin/timber-library": "0.22.5",
+    "timber/timber": "~1.1.0",
     "wpackagist-plugin/limit-login-attempts": "1.7.1",
     "roots/wp-password-bcrypt": "1.0.0"
   },
