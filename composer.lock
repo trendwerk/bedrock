@@ -327,16 +327,16 @@
         },
         {
             "name": "koodimonni/composer-dropin-installer",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Koodimonni/Composer-Dropin-Installer.git",
-                "reference": "1903a3a1e981a783618aad9e322a12ad39ad1760"
+                "reference": "e8fcc1862926f4587a137edf240b1e3741f98e7a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Koodimonni/Composer-Dropin-Installer/zipball/1903a3a1e981a783618aad9e322a12ad39ad1760",
-                "reference": "1903a3a1e981a783618aad9e322a12ad39ad1760",
+                "url": "https://api.github.com/repos/Koodimonni/Composer-Dropin-Installer/zipball/e8fcc1862926f4587a137edf240b1e3741f98e7a",
+                "reference": "e8fcc1862926f4587a137edf240b1e3741f98e7a",
                 "shasum": ""
             },
             "require": {
@@ -361,11 +361,12 @@
             "authors": [
                 {
                     "name": "Onni Hakala",
-                    "email": "onni@koodimonni.fi"
+                    "email": "onni@koodimonni.fi",
+                    "role": "Developer"
                 }
             ],
-            "description": "Do what the fuck you want with your composer packages aka. Composer Dropin installer. Install packages or part of packages into custom paths without overwriting existing stuff.",
-            "time": "2016-07-11 09:21:59"
+            "description": "Install packages or a few files from packages into custom paths without overwriting existing stuff.",
+            "time": "2016-10-30 19:22:35"
         },
         {
             "name": "oscarotero/env",
@@ -468,16 +469,16 @@
         },
         {
             "name": "timber/timber",
-            "version": "1.1.6",
+            "version": "1.1.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/timber/timber.git",
-                "reference": "7631b3dd3e37a100c6cbc23522b1f3630e907d58"
+                "reference": "7593ce3a30a012bfc376167ee5a701ca4eb0e3fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/timber/timber/zipball/7631b3dd3e37a100c6cbc23522b1f3630e907d58",
-                "reference": "7631b3dd3e37a100c6cbc23522b1f3630e907d58",
+                "url": "https://api.github.com/repos/timber/timber/zipball/7593ce3a30a012bfc376167ee5a701ca4eb0e3fc",
+                "reference": "7593ce3a30a012bfc376167ee5a701ca4eb0e3fc",
                 "shasum": ""
             },
             "require": {
@@ -525,20 +526,20 @@
                 "timber",
                 "twig"
             ],
-            "time": "2016-09-15 03:46:53"
+            "time": "2016-11-22 20:56:31"
         },
         {
             "name": "trendwerk/credits",
-            "version": "0.1.1",
+            "version": "0.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/trendwerk/credits.git",
-                "reference": "95077da2ead1347a07fe1a6dab4ca63065fd2e72"
+                "reference": "de6a343646247206e176cd34eb3692843d9655fe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/trendwerk/credits/zipball/95077da2ead1347a07fe1a6dab4ca63065fd2e72",
-                "reference": "95077da2ead1347a07fe1a6dab4ca63065fd2e72",
+                "url": "https://api.github.com/repos/trendwerk/credits/zipball/de6a343646247206e176cd34eb3692843d9655fe",
+                "reference": "de6a343646247206e176cd34eb3692843d9655fe",
                 "shasum": ""
             },
             "require": {
@@ -557,7 +558,7 @@
                 }
             ],
             "description": "Adds a metatag to credit the developer (Trendwerk).",
-            "time": "2016-08-05 14:57:56"
+            "time": "2016-11-04 07:54:53"
         },
         {
             "name": "trendwerk/editor-capabilities",
@@ -625,16 +626,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.26.1",
+            "version": "v1.28.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "a09d8ee17ac1cfea29ed60c83960ad685c6a898d"
+                "reference": "b22ce0eb070e41f7cba65d78fe216de29726459c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/a09d8ee17ac1cfea29ed60c83960ad685c6a898d",
-                "reference": "a09d8ee17ac1cfea29ed60c83960ad685c6a898d",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/b22ce0eb070e41f7cba65d78fe216de29726459c",
+                "reference": "b22ce0eb070e41f7cba65d78fe216de29726459c",
                 "shasum": ""
             },
             "require": {
@@ -642,12 +643,12 @@
             },
             "require-dev": {
                 "symfony/debug": "~2.7",
-                "symfony/phpunit-bridge": "~2.7"
+                "symfony/phpunit-bridge": "~3.2@dev"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.26-dev"
+                    "dev-master": "1.28-dev"
                 }
             },
             "autoload": {
@@ -682,7 +683,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2016-10-05 18:57:41"
+            "time": "2016-11-23 18:41:40"
         },
         {
             "name": "upstatement/routes",
