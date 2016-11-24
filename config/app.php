@@ -20,7 +20,7 @@ if (file_exists($root_dir . '/.env')) {
 /**
  * Environment settings
  */
-define('WP_ENV', env('WP_ENV') ? env('WP_ENV') : 'development');
+define('WP_ENV', env('WP_ENV') ? env('WP_ENV') : 'production');
 define('WP_HOME', env('WP_HOME'));
 define('WP_SITEURL', env('WP_SITEURL') ? env('WP_SITEURL') : WP_HOME . '/wp');
 
